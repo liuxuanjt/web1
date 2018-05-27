@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #ffffff;
+} 
+ul,li,ol{
+	list-style: none;
+}
+.container{
+	width: 100%;
+	height:173px;
+	background-color: #f1f1f1;
+}
+.header{
+	width: 235px;
+	height: 95px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.nav{
+	width: 672px;
+	height: 46px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 22px;
+}
+.nav li{
+	float:left;
+	height: 45px;
+	padding: 0 30px;
+	font-size: 14px;
+	line-height: 45px;
+	background: url("images/line.jpg") no-repeat right center;
+}
+.nav li a{
+	display: block;
+	height: 42px;
+}
+.nav li:last-child{
+	background: none;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 405px;
+	background: url("images/banner.jpg") no-repeat center center;
+}
+.serve{
+	width: 1200px;
+	height: 808px;
+	margin: 0 auto;
+}
+.serve h3{
+	font-size: 34px;
+	text-align: center;
+	margin-top: 60px;
+}
+.serve p{
+	font-size: 31.45px;
+	text-align: center;
+	margin-top: 25px;
+}
+.serve .up{
+	width: 300px;
+	height: 370px;
+	float: left;
+	text-align: center;
+	margin-top: 55px;
+}
+.up p{
+	text-align: center;
+	font-size: 16px;margin-top: 30px;
+}
+.up ul li{
+	background: url("images/dian.jpg") no-repeat left center;
+	margin-left: 120px;
+}
+.kao{
+	font-size: 14px;
+	color: #c1c1c1;
+	float: left;
+	padding-left: 10px;
+	margin-top: 13px;
+}
+.serve .down{
+	width: 300px;
+	height: 250px;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+.down p{
+	text-align: center;
+	font-size: 16px;margin-top: 30px;
+}
+.jiejue{
+	width: 100%;
+	height: 712px;
+	background: url("images/city.png") no-repeat center center;
+}
+.jiejue h3{
+	font-size: 34px;
+	color: #fff;
+	text-align: center;
+	padding-top: 68px;
+}
+.jiejue p{
+	font-size: 31.45px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+}
+.jiejue ul{
+	width: 1074px;
+	height: 300px;
+	margin: 0 auto;
+}
+.jiejue ul li
+{	
+	float: left;
+	margin-right: 50px;
+	margin-top: 210px;
+}
+.jiejue li:last-child{
+	margin-right: 0;
+}
+.new{
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+}
+.new h1{
+	font-size: 34px;
+	text-align: center;
+	margin-top: 55px;
+}
+.new h2{
+	font-size: 31px;
+	text-align: center;
+	margin-top: 20px;
+}
+.new h3{
+	font-size: 22px;
+}
+.new h4{
+	font-size: 18px;
+	font-weight: lighter;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.new ul li{
+	width: 600px;
+	height: 390px;
+	margin-top: 50px;
+	float: left;
+	text-align:left;
+}
+.new li p{
+	font-size: 14px;
+	color: #bdbdbd;
+	height: 40px;
+	line-height: 30px;
+	border-bottom: 2px dashed #dcdcdc;
+}
+.new li p:last-child{
+	border-bottom: none;
+}
+.four{
+	width: 100%;
+	height: 105px;
+	margin-top: 85px;
+	background: #f5f5f5;
+}
+.four li{
+	width: 300px;
+	height: 105px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+.four img{
+	margin-top: 30px;
+	margin-right: 25px;
+	float: left;
+	
+}
+.four li h3{
+	font-size: 19px;
+	margin-top: 30px;
+	
+}
+.four li p{
+	font-size: 13px;
+	margin-top: 10px;
+	
+}
+.four h3,p{
+	text-align: left;
+}
+/*底部*/
+.bottom{
+	width: 100%;
+	height: 380px;
+	background: url("images/bottom.jpg") no-repeat left center;
+}
+.bottom ul{
+	width: 180px;
+	height: 387px;
+	margin-left: 30px;
+	margin-top: 70px;
+	float: left;
+}
+.bottom li{
+	font-size: 13px;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.bottom h1{
+	font-size: 18px;
+	margin-top: 80px;
+	color: #fff;
+	margin-left: 120px;
+	float: left;
+}
+.bottom p{
+	font-size: 18px;
+	color: #fff;
+	margin-right: 0;
+	float: left;
+	margin-top: 80px;
+	margin-left: 80px;
+}
